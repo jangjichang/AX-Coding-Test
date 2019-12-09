@@ -11,18 +11,6 @@ def find_open_door(N, n):
                 door[number] = 0
     return sum(door)
 
-"""
-1o
-2x
-3x
-4o
-5x
-6o
-7o
-8o
-9x
-10o
-"""
 
 def test_find_open_door():
     assert find_open_door(50, 1) == 50
